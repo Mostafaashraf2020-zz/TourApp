@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="88dp">
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/pic"
+        android:src="@mipmap/ic_launcher"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/pic"
+        android:paddingLeft="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/name_text_view"
+            android:layout_height="44dp"
+            android:text="Name"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#131212"
+            android:gravity="bottom"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/loction_text_view"
+            android:textStyle="bold"
+            android:layout_below="@id/name_text_view"
+            android:textColor="#131212"
+            android:text="loction"
+            android:gravity="top"
+            android:layout_weight="1"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

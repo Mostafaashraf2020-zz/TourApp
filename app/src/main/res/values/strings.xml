@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourApp</string>
+    <string name="resturant_title">Resturant</string>
+    <string name="hopital_title">Hospital</string>
+    <string name="places_title">Places</string>
+    <string name="club_title">Clubs</string>
+
+
+</resources>

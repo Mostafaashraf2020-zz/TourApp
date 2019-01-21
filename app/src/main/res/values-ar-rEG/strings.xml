@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="resturant_title">مطاعم</string>
+    <string name="hopital_title">مستشفيات</string>
+    <string name="places_title">اماكن سياحيه</string>
+    <string name="club_title">نوادى</string>
+
+
+</resources>
